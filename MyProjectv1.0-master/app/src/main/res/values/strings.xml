@@ -17,6 +17,8 @@
     <string name="keeppassword">记住密码</string>
     <string name="title_activity_post">PostActivity</string>
     <string name="register_content">请填写以下信息：</string>
+    <string name="comment">评论</string>
+    <string name="fabulous">收到的赞</string>
     <string name="large_text">
 
         "Material is the metaphor.\n\n"

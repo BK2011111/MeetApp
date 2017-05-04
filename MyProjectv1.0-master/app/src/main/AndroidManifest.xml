@@ -42,7 +42,8 @@
             android:name=".discovery.PostActivity"
             android:label="@string/title_activity_post"
             android:theme="@style/AppTheme" />
-        <activity android:name=".login.RegisterActivity"></activity>
+        <activity android:name=".login.RegisterActivity" />
+        <activity android:name=".notification.NotificationActivity"></activity>
     </application>
 
 </manifest>

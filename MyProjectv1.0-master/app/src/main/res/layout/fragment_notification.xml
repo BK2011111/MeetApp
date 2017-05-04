@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/bg_gray">
+    <RadioButton
+        android:id="@+id/radioBtnComment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/comment"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/tab_comment"
+        style="@style/tab_menu_item"
+        android:background="@color/bg_gray"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/fabulous"
+        android:drawableTop="@drawable/tab_fabulous"
+        android:layout_weight="1"
+        style="@style/tab_menu_item"
+        android:background="@color/bg_gray"/>
+
+</RadioGroup>
+
+</LinearLayout>
